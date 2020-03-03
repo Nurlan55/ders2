@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="UTF"/>
+        <title>nuran</title>
+        <style>
+            *{ 
+                box-sizing: border-box;
+                list-style: none;
+                text-decoration: none;
+                margin: 0;
+                padding: 0;
+
+            }
+            #nav{
+                background-color: burlywood;
+            }
+            #menu >li{
+                display: inline-block;
+                padding: 20px;
+            }
+            #menu li > a{
+                color: rgb(59, 119, 91);
+            }
+            .hvr{
+                position: relative;
+            }
+            .dd{
+                  display:none; 
+                position: absolute;
+                background-color: darkred;
+                top: 50px;
+                width: 150px;
+
+            }
+            .dd a{
+                 display: block; 
+                text-align: center;
+                font-size: 20px;
+                padding: 10px;
+            }
+            .dd a:hover{
+                background-color: darksalmon;
+                
+            }
+          
+            .hvr:hover .dd{
+            display: block;
+        } */
+    
+        </style>
+    </head>
+    <body>
+        <div id="nav">
+            <ul id="menu">
+               <li><a href="#">ana sehve</a></li> 
+               <li><a href="#">haqqinda</a></li> 
+               <li class="hvr">
+               <a href="#">meqaleler</a>
+               <ul class="dd">
+                   <li><a href="#"> mobil</a></li>
+                   <li><a href="#">web</a></li>
+                   <li><a href="#">ai</a></li>
+                   <li><a href="#">console</a></li>
+               </ul>
+            </li>
+               <li><a href="#">elaqe</a></li> 
+            </ul>
+
+        </div>
+    </body>
+</html>
